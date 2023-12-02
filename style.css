@@ -1,3 +1,8 @@
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .block_1{
     background: url(/img/block_1.jpg) ;
 
@@ -106,7 +111,7 @@ text-align: center;
     
    } 
    .card{ 
-    width:calc((100% - 62px)); 
+    width:calc((100% - 62px) ); 
        transition: 0.5s; 
        border: 1px solid var(--Gray,#e2e2e2); 
        background: #F9F9F7; 
@@ -119,4 +124,12 @@ text-align: center;
     box-shadow: 0px 0px 18px 0px rgba(85, 83, 83, 0.25); 
    } 
  
-   
+/* .img_1{
+    background:#FFE8D0;
+    width: 212px;
+height: 164px;
+} */
+.img_2{
+position: absolute;
+z-index:-8;
+}
